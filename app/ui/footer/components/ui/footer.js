@@ -6,7 +6,7 @@ import React from "react";
 
 const FooterMini = () => {
   return (
-    <div className=" px-5 md:px-40 py-5 space-y-8">
+    <div className=" px-5 md:px-36 py-5 space-y-8">
       <div className="w-full flex md:flex-row flex-col justify-between md:space-y-0 space-y-5">
         <div className="w-100 md:w-3/5">
           <p className="text-textColor-footer text-xs">

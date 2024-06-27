@@ -55,7 +55,7 @@ const EquityJobs = () => {
     },
   ];
   return (
-    <div className="flex flex-col justify-center items-center w-full space-y-8 py-8 px-5 md:px-60">
+    <div className="flex flex-col justify-center items-center w-full space-y-8 py-8 px-5 md:px-36">
       <HeroTitle
         text="Equity jobs"
         subText="See companies and startups offering equity or a mix of cash and equity for very important position in their company"

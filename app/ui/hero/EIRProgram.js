@@ -58,7 +58,7 @@ const EIRPrograms = () => {
   return (
     <>
       <div
-        className="flex flex-col justify-center items-center w-full  space-y-8 py-8 px-5 md:px-60 overflow-x-hidden"
+        className="flex flex-col justify-center items-center w-full  space-y-8 py-8 px-5 md:px-36 overflow-x-hidden"
         ref={currentRef}
       >
         <HeroTitle

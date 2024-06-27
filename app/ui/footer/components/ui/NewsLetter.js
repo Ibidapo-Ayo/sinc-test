@@ -4,9 +4,9 @@ import React from "react";
 
 const NewsLetter = () => {
   return (
-    <div className="px-5 md:px-60">
+    <div className="px-5 md:px-36">
       <div className="w-100 md:w-[553px] space-y-8">
-        <HeroSubTitle text="Newsletter" textStyle="text-left text-white" />
+        <HeroSubTitle text="Newsletter" textStyle="text-left text-xl md:text-2xl text-white" />
         <p className="text-xs text-white">
         Get the latest about SINC Partners, our startup Incubator program, Portfolio company offerings - straight into your inbox.
         </p>

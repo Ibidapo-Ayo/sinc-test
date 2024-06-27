@@ -24,7 +24,7 @@ const CoFound = () => {
     },
   ];
   return (
-    <div className="flex flex-col justify-center items-center w-full space-y-8 py-8 px-5 md:px-60">
+    <div className="flex flex-col justify-center items-center w-full space-y-8 py-8 px-5 md:px-36">
       <HeroTitle
         text="Co-found With Us"
         subText="We seek to collaborate with visionary individuals who are solving similar problems of helping entrepreneurs succeed "

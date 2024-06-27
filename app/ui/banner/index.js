@@ -27,7 +27,7 @@ const Banner = () => {
         slidesPerView={1}
       >
         <SwiperSlide>
-          <div className="flex md:flex-row flex-col-reverse md:space-y-0 space-y-3 justify-between items-center py-20 bg-white px-5 md:px-60 ">
+          <div className="flex md:flex-row flex-col-reverse md:space-y-0 space-y-3 justify-between items-center py-20 bg-white px-5 md:px-36 ">
             <div className="w-100 md:w-1/2">
               <div className="w-100 md:w-[491px] space-y-3">
                 <h4 className="text-[28px] md:text-[32px] md:text-left text-center leading-9 font-[500] text-textColor tracking-wide">

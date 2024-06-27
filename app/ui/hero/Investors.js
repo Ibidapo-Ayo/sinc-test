@@ -68,7 +68,7 @@ const Investors = () => {
     },
   ];
   return (
-    <div className="flex flex-col w-full space-y-8 py-8 px-5 md:px-60">
+    <div className="flex flex-col w-full space-y-8 py-8 px-5 md:px-36">
       <div className="flex flex-col justify-center items-center space-y-5">
         <HeroTitle
           text="SINC Investors Network"

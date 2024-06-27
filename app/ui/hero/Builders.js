@@ -4,7 +4,7 @@ import React from "react";
 
 const Builders = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-full space-y-8 px-5 md:px-0 py-8">
+    <div className="flex flex-col justify-center items-center w-full space-y-8 px-5 md:px-36 py-8">
       <HeroTitle text="Network of builders helping startup scale" />
       <div className="flex md:flex-row flex-col justify-center w-100 md:max-w-3xl mx-auto space-x-0 space-y-5 md:space-y-0 md:space-x-8">
         <div className="w-100 bg-white p-6 space-y-5">

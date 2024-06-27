@@ -19,7 +19,7 @@ const Innovation = () => {
     },
   ];
   return (
-    <div className="flex flex-col justify-center items-center w-full space-y-8 py-8 px-5 md:px-60">
+    <div className="flex flex-col justify-center items-center w-full space-y-8 py-8 px-5 md:px-36">
       <HeroTitle
         text="Our Concept Innovations"
         subText="We have proprietary concept innovations that will support the startup ecosystem, support solution-providers/entrepreneurs and ultimately help democratize success;"

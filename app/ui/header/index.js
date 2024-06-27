@@ -10,7 +10,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="flex justify-between px-5 md:px-60 py-5 bg-white">
+      <div className="flex justify-between px-5 md:px-36 py-5 bg-white">
         <div className="block">
           <Logo />
         </div>
