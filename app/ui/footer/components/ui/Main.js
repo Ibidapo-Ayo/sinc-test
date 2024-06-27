@@ -102,7 +102,7 @@ const Main = () => {
           </ul>
         </div>
       </div>
-      <div className="w-[250px] border-l border-bg pl-5">
+      <div className="w-[300px] border-l border-bg pl-5">
         <div className="mt-4 space-y-4">
           <h2 className={`font-[500] text-white leading-[28.8px]`}>
             Locations
