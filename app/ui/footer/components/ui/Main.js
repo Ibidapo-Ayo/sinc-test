@@ -50,7 +50,7 @@ const Main = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-[auto,1fr,auto] justify-between gap-4 px-5 md:px-40">
       <div className="mt-5 w-100 flex md:justify-start justify-center md:items-start items-center flex-col md:w-[200px] space-y-5">
-        <Image src="/footer_log.png" width={114.94} height={64} />
+        <Image src="/footer_log.png" width={114.94} height={64} alt="Sinc logo image" />
         <p className="font-[300] w-100 leading-[27px] text-sm text-textColor-footer md:text-left text-center">
           SINC Partners is a service incubation company connecting experts in
           product development and growth marketing willing to offer their

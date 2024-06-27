@@ -2,7 +2,7 @@ import HeroSubTitle from "@/components/ui/HeroSubTitle";
 import HeroTitle from "@/components/ui/HeroTitle";
 import React from "react";
 
-const Section1 = () => {
+const Builders = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full space-y-8 px-5 md:px-0 py-8">
       <HeroTitle text="Network of builders helping startup scale" />
@@ -38,4 +38,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default Builders;

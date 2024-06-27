@@ -3,7 +3,7 @@ import HeroTitle from "@/components/ui/HeroTitle";
 import Card from "@/components/ui/hero-cards/Card";
 import React from "react";
 
-const Section3 = () => {
+const Innovation = () => {
   const cardInfo = [
     {
       title: "Service Incubator",
@@ -27,6 +27,7 @@ const Section3 = () => {
       <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-y-0 space-y-5 md:space-x-10">
         {cardInfo.map((card, index) => (
           <Card
+          key={index}
             style={`bg-white rounded-md py-5 px-4 h-52 w-80 flex flex-col justify-between items-cenetr`}
           >
             <h2 className={`font-[500] leading-[28.8px] text-textColor  text-xl text-center`}>
@@ -42,4 +43,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default Innovation;

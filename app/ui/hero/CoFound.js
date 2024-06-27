@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
-const Section6 = () => {
+const CoFound = () => {
   const cardInfo = [
     {
       title: "We Ideate",
@@ -32,6 +32,7 @@ const Section6 = () => {
       <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-y-0 space-y-5 md:space-x-10">
         {cardInfo.map((card, index) => (
           <Card
+          key={index}
             style={`bg-white rounded-md py-5 px-4 h-72 w-100 md:w-80 flex flex-col justify-between space-y-3`}
           >
             <div className={`w-[60px] h-[60px] shrink-0 rounded-[100%] flex items-center justify-center ${card.style} text-white font-[600] p-2`}>
@@ -53,4 +54,4 @@ const Section6 = () => {
   );
 };
 
-export default Section6;
+export default CoFound;

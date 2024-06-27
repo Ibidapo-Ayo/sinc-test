@@ -8,7 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Section4 = () => {
+const Model = () => {
   const cardInfo = [
     {
       title: icons.triangle,
@@ -39,9 +39,10 @@ const Section4 = () => {
       <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-y-0 space-y-5 md:space-x-10">
         {cardInfo.map((card, index) => (
           <Card
+          key={index}
             style={`bg-white rounded-md py-5 px-4 h-52 w-100 md:w-80 flex flex-col justify-between items-cenetr`}
           >
-            <Image src={card.title} width={40} height={40} />
+            <Image src={card.title} width={40} height={40} alt="" />
             <p className="text-textColor-subTitle font-[400] text-sm">
               {card.info}
             </p>
@@ -75,4 +76,4 @@ const Section4 = () => {
   );
 };
 
-export default Section4;
+export default Model;

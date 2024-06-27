@@ -47,7 +47,7 @@ const Banner = () => {
               </div>
             </div>
             <div className="w-100 md:w-1/2">
-              <Image src="/banner_img.png" width={703} height={590} />
+              <Image src="/banner_img.png" width={703} height={590} alt="Slider 1 image" />
             </div>
           </div>
         </SwiperSlide>
@@ -88,6 +88,7 @@ const Banner = () => {
                 src="/images/slider/slider1.png"
                 width={703}
                 height={590}
+                alt="Slider 2 image"
               />
             </div>
           </div>
@@ -117,6 +118,7 @@ const Banner = () => {
                 src="/images/slider/slider2.png"
                 width={703}
                 height={590}
+                alt="Slider 3 image"
               />
             </div>
           </div>

@@ -19,7 +19,7 @@ const Brand = () => {
       </div>
       <ul className=" space-x-0 space-y-3 md:space-y-0 md:space-x-6 flex md:flex-row flex-col">
         {navLink.map((link, index) => (
-          <Link className="font-[500]" href={link.toLowerCase()}>
+          <Link key={index} className="font-[500]" href={link.toLowerCase()}>
             {link}
           </Link>
         ))}

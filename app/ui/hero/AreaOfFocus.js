@@ -2,7 +2,7 @@ import HeroTitle from "@/components/ui/HeroTitle";
 import Card from "@/components/ui/hero-cards/Card";
 import React from "react";
 
-const Section2 = () => {
+const AreaOfFocus = () => {
   const cardInfo = [
     {
       title: "01",
@@ -38,7 +38,7 @@ const Section2 = () => {
       />
       <div className="flex md:flex-row flex-col md:space-y-0 space-y-2 w-full">
         {cardInfo.map((card, index) => (
-          <Card style={`${card.style} p-5 h-40 w-100 md:w-60 flex flex-col justify-between`}>
+          <Card key={index} style={`${card.style} p-5 h-40 w-100 md:w-60 flex flex-col justify-between`}>
             <p className="font-[400] text-xl md:text-md text-white">{card.title}</p>
             <p className="font-[400] text-xl md:text-md text-white">
              {card.info}
@@ -50,4 +50,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default AreaOfFocus;
