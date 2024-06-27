@@ -13,13 +13,12 @@ const FooterMini = () => {
             Guaranteed 2x on your service or cash investment, usually been the
             first to invest.
             <span className="font-[400] text-white">
-              {" "}
               Get in early and SINC your guaranty!
             </span>
           </p>
         </div>
         <div className="flex w-100 items-center space-x-2 md:w-2/5">
-          <Image src="/GASUS.png" width={120} height={38} />
+          <Image src="/GASUS.png" width={120} height={38} alt="" />
           <p className="text-textColor-footer  leading-[23.8px] text-xs">
             We are a business built on the foundation of Christian values and
             belief

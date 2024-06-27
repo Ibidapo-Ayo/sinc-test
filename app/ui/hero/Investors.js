@@ -29,7 +29,7 @@ const Investors = () => {
         text="SINC Investors Network"
         subText="Our deals are structured not just to take in investments but to onboard owners passionate about our solutions. Our portfolio companies are valued at $50k at start, with these low valuation, you are guaranteed at least 2x-5x, usually been the first to invest.  "
       />
-      <p><span className="font-[600] text-sm text-textColor-subTitle leading-[23.8px] text-center">Disclaimer</span> These deal flows is a statement of our projections and may differ from stage to stage and from venture to venture and the guarantee is for deal 1, usually the first to invest</p>
+      <p className="font-[400] text-sm text-textColor-subTitle leading-[23.8px] text-center"><span className="font-[600]">Disclaimer</span> These deal flows is a statement of our projections and may differ from stage to stage and from venture to venture and the guarantee is for deal 1, usually the first to invest</p>
       <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-y-0 space-y-5 md:space-x-10">
         {cardInfo.map((card, index) => (
           <Card

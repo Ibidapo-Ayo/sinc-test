@@ -7,6 +7,7 @@ import Model from './Model'
 import Portfolio from './Portfolio'
 import CoFound from './CoFound'
 import EIRPrograms from './EIRProgram'
+import Investors from './Investors'
 
 const HeroSections = () => {
   return (
@@ -18,6 +19,7 @@ const HeroSections = () => {
      <Portfolio />
      <CoFound />
      <EIRPrograms />
+     <Investors />
     </div>
   )
 }
