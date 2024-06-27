@@ -8,6 +8,8 @@ import Portfolio from './Portfolio'
 import CoFound from './CoFound'
 import EIRPrograms from './EIRProgram'
 import Investors from './Investors'
+import PreFooter from '../footer/components/ui/PreFooter'
+import EquityJobs from './EquityJobs'
 
 const HeroSections = () => {
   return (
@@ -20,6 +22,8 @@ const HeroSections = () => {
      <CoFound />
      <EIRPrograms />
      <Investors />
+     <EquityJobs />
+     <PreFooter />
     </div>
   )
 }
