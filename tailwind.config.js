@@ -23,7 +23,9 @@ module.exports = {
         bg: {
            DEFAULT: "#F4F4F4",
            black: {
-            DEFAULT: "#101010"
+            DEFAULT: "#101010",
+            100: "#CECECE",
+            200: "#212121"
            }
            },
         border: {

@@ -15,6 +15,7 @@ import agreement from "../public/images/icons/programs/agreement.png"
 import onboarding from "../public/images/icons/programs/onboarding.png"
 import proposal from "../public/images/icons/programs/proposal.png"
 import selection from "../public/images/icons/programs/selection.png"
+import play from "../public/images/icons/icons/play.png"
 
 export default {
   pentagon,
@@ -33,5 +34,6 @@ export default {
     onboarding,
     proposal,
     selection
-  }
+  },
+  play
 };

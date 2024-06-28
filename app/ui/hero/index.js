@@ -10,6 +10,7 @@ import EIRPrograms from './EIRProgram'
 import Investors from './Investors'
 import PreFooter from '../footer/components/ui/PreFooter'
 import EquityJobs from './EquityJobs'
+import Blogs from './Blogs'
 
 const HeroSections = () => {
   return (
@@ -23,6 +24,7 @@ const HeroSections = () => {
      <EIRPrograms />
      <Investors />
      <EquityJobs />
+     <Blogs />
      <PreFooter />
     </div>
   )
