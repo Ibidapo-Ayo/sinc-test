@@ -77,32 +77,32 @@ const EquityJobs = () => {
             </h2>
             <div className="flex justify-between">
               <div>
-                <p className="text-textColor-footer text-xs text-end">LOCATION</p>
-                <p className="text-textColor text-sm">{card.location}</p>
+                <p className="text-textColor-footer text-xs">LOCATION</p>
+                <p className="text-textColor text-sm text-end">{card.location}</p>
               </div>
               <div>
                 <p className="text-textColor-footer text-xs text-end">INDUSTRY</p>
-                <p className="text-textColor text-sm">{card.industy}</p>
+                <p className="text-textColor text-sm text-end">{card.industy}</p>
               </div>
             </div>
             <div className="flex justify-between">
               <div>
-                <p className="text-textColor-footer text-xs text-end">EQUITY</p>
+                <p className="text-textColor-footer text-xs">EQUITY</p>
                 <p className="text-textColor text-sm">{card.equity}</p>
               </div>
               <div>
                 <p className="text-textColor-footer text-xs text-end">STIPEND</p>
-                <p className="text-textColor text-sm">{card.stipend}</p>
+                <p className="text-textColor text-sm text-end">{card.stipend}</p>
               </div>
             </div>
             <div className="flex justify-between">
               <div>
-                <p className="text-textColor-footer text-xs text-end">DEADLINE</p>
+                <p className="text-textColor-footer text-xs">DEADLINE</p>
                 <p className="text-textColor text-sm">{card.deadline}</p>
               </div>
               <div>
                 <p className="text-textColor-footer text-xs text-end">ROLE TYPE</p>
-                <p className="text-textColor text-sm">{card.role_type}</p>
+                <p className="text-textColor text-sm text-end">{card.role_type}</p>
               </div>
             </div>
             <div>
