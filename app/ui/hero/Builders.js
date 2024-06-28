@@ -4,9 +4,9 @@ import React from "react";
 
 const Builders = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-full space-y-8 px-5 md:px-36 py-8">
+    <div className="flex flex-col justify-center items-center w-100 space-y-8 px-5 md:px-36 py-8">
       <HeroTitle text="Network of builders helping startup scale" />
-      <div className="flex md:flex-row flex-col justify-center w-100 md:max-w-3xl mx-auto space-x-0 space-y-5 md:space-y-0 md:space-x-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div className="w-100 bg-white p-6 space-y-5">
           <HeroSubTitle text="Work with Service Incubators to expedite your time-to-market" textStyle="md:text-left text-center text-xl" />
           <p className="text-sm text-textColor-subTitle leading-7 font-[400] md:text-left text-center">

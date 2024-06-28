@@ -3,7 +3,7 @@ import React from "react";
 
 const HeaderCallToAction = () => {
   return (
-    <div className="flex md:flex-row flex-col justify-start md:justify-end md:items-center space-x-0 md:space-y-0 space-y-3 md:space-x-4">
+    <div className="flex lg:flex-row flex-col justify-start lg:justify-end lg:items-center space-x-0 lg:space-y-0 space-y-3 lg:space-x-4">
       <Button size={"cta"} variant={"default"} className="md:text-xs text-sm shrink-0">
         SINC with us
       </Button>

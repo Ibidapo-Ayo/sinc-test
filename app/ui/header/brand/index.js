@@ -13,11 +13,11 @@ const Brand = () => {
     "More",
   ];
   return (
-    <div className="w-100 md:w-1/2 flex space-x-0 space-y-3 md:space-y-0 md:space-x-6 items-center">
-      <div className="md:block hidden">
+    <div className="w-100 md:w-1/2 flex space-x-0 space-y-3 md:space-y-0 md:space-x-6  items-center">
+      <div className="lg:block hidden">
         <Logo />
       </div>
-      <ul className=" space-x-0 space-y-3 md:space-y-0 md:space-x-6 flex md:flex-row flex-col">
+      <ul className=" space-x-0 space-y-3 lg:space-y-0 lg:space-x-6 flex lg:flex-row flex-col">
         {navLink.map((link, index) => (
           <Link key={index} className="font-[500]" href={link.toLowerCase()}>
             {link}

@@ -10,17 +10,17 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="flex justify-between px-5 md:px-36 py-5 bg-white">
-        <div className="block">
+      <div className="flex justify-between px-5 md:px-36 py-5 bg-white items-center">
+        <div className="lg:hidden block">
           <Logo />
         </div>
-        <div className="md:block hidden">
+        <div className="lg:block hidden shrink-0">
           <Brand />
         </div>
-        <div className="md:block hidden">
+        <div className="lg:block hidden">
           <HeaderCallToAction />
         </div>
-        <div className="md:hidden block">
+        <div className="md:block lg:hidden">
           <Menu onClick={()=> setOpen(true)} />
         </div>
       </div>

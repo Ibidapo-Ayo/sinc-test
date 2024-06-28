@@ -60,11 +60,11 @@ const EquityJobs = () => {
         text="Equity jobs"
         subText="See companies and startups offering equity or a mix of cash and equity for very important position in their company"
       />
-      <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-y-0 space-y-5 md:space-x-10">
+      <div className="grid lg:grid-cols-4 gap-2 md:grid-cols-2 grid-cols-1">
         {companies.map((card, index) => (
           <Card
             key={index}
-            style={`bg-white rounded-md py-5 px-4 h-auto w-100 md:w-80 flex flex-col justify-between space-y-3`}
+            style={`bg-white rounded-md py-5 px-4 h-auto w-100 flex flex-col justify-between space-y-3 shrink-0`}
           >
             <Image src={card.image} alt="alt" width={188.5} height={64} />
             <p className="text-textColor-subTitle font-[400] text-sm ">

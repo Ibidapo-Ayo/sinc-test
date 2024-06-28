@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroTitle = ({ text, subText }) => {
   return (
-    <div className="w-100 md:w-[898px] space-y-3">
+    <div className="w-100 space-y-3">
       <h2 className="text-2xl md:text-5xl font-[500] text-center leading-7 md:leading-[72.8px]">
         {text}
       </h2>

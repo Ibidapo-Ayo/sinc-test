@@ -89,7 +89,7 @@ const Investors = () => {
           (Invest from $500 & above)
         </p>
       </div>
-      <div className="flex md:flex-row flex-col justify-between gap-4 items-center md:space-y-0 space-y-5 md:space-x-10 border border-border divide-x-0 divide-y md:divide-y-0 md:divide-x">
+      <div className="grid lg:grid-col-4 md:grid-cols-2 grid-cols-1">
         {microInvestors.map((card, index) => (
           <Card
             key={index}
@@ -144,7 +144,7 @@ const Investors = () => {
           (Invest from $50k and above)
         </p>
       </div>
-      <div className="flex md:flex-row flex-col justify-between gap-4 items-center md:space-y-0 space-y-5 md:space-x-10 border border-border divide-x-0 divide-y md:divide-y-0 md:divide-x">
+      <div className="grid lg:grid-col-4 md:grid-cols-2 grid-cols-1">
         {investors.map((card, index) => (
           <Card
             key={index}
