@@ -36,7 +36,7 @@ const AreaOfFocus = () => {
         text="Our Area of Focus"
         subText="In our quest to help make success available to everyone, we have initial strategic direction to focus on these five (5) key areas at the lab"
       />
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-10 w-full">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 w-full">
         {cardInfo.map((card, index) => (
           <Card key={index} style={`${card.style} p-5 h-40 w-100 flex flex-col justify-between`}>
             <p className="font-[400] text-xl md:text-md text-white">{card.title}</p>

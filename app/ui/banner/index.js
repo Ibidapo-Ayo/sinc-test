@@ -122,7 +122,8 @@ const Banner = () => {
         </SwiperSlide>
       </Swiper>
 
-      <div className="mt-20  px-10 justify-center items-center">
+     <div className="lg:px-36 px-5 w-100">
+     <div className="mt-20 justify-center w-100 items-center">
         <div className="bg-white rounded-[32px] py-5 px-2 lg:px-8 space-y-5 h-auto w-100">
           <p className="text-xs lg:text-lg font-[500] text-center text-textColor leading-4 lg:leading-7 tracking-tight">"Nigeria and Africa has a massive network effect that have not be fully utilized. With Nigerians/Africans in every country and territory of the world, we can scale an African business to 100+ countries in few weeks"
           </p>
@@ -136,6 +137,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
+     </div>
     </>
   );
 };

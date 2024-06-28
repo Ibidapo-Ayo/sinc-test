@@ -24,7 +24,7 @@ const Innovation = () => {
         text="Our Concept Innovations"
         subText="We have proprietary concept innovations that will support the startup ecosystem, support solution-providers/entrepreneurs and ultimately help democratize success;"
       />
-      <div className="flex flex-col md:flex-row justify-between items-center space-x-0 md:space-y-0 space-y-5 md:space-x-10">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-10">
         {cardInfo.map((card, index) => (
           <Card
           key={index}
